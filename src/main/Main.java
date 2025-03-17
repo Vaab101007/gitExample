@@ -4,6 +4,8 @@
  */
 package main;
 
+import core.Person;
+
 /**
  *
  * @author vangu
@@ -12,5 +14,7 @@ public class Main {
     
     public static void main(String[] args) {
         System.out.println("Helloooooo");
+        Person person = new Person(1042253026, "Valerie", 17);
+        System.out.println("person");
     }
 }
